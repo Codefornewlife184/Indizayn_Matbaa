@@ -12112,7 +12112,7 @@ li:hover .sidebar__comments__icon::after {
 }
 .hero-slider-one__sub-title {
   font-size: 20px;
-  color: var(--boskery-white, #ffffff);
+  color: var(--boskery-base, #ffffff);
   font-weight: 700;
   line-height: normal;
   letter-spacing: 5px;
@@ -12136,7 +12136,7 @@ li:hover .sidebar__comments__icon::after {
 .hero-slider-one__title {
   position: relative;
   display: inline-block;
-  color: var(--boskery-white, #ffffff);
+  color: var(--boskery-base, #ffffff);
   font-size: 95px;
   font-weight: 700;
   line-height: 1;
@@ -12220,11 +12220,12 @@ li:hover .sidebar__comments__icon::after {
   transition: all 1500ms ease;
 }
 .hero-slider-one__btn .boskery-btn {
-  background-color: var(--boskery-white, #ffffff);
-  color: var(--boskery-base, #a42027);
+  background-color: var(--boskery-base, #ffffff);
+  color: var(--boskery-white, #a42027);
 }
 .hero-slider-one__btn .boskery-btn .boskery-btn__hover {
-  background-color: var(--boskery-base, #a42027);
+  background-color: var(--boskery-black, #a42027);
+  color: var(--boskery-white, #a42027);
 }
 .hero-slider-one__btn .boskery-btn i::after {
   background-color: var(--boskery-base, #a42027);
